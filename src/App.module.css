@@ -1,0 +1,121 @@
+.wrapper {
+    max-width: 70rem;
+    margin: 2rem auto;
+    justify-content: center;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center; 
+    
+}
+
+.form {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+   bottom: 1.875rem;
+    position: relative;
+
+
+}
+
+.form input {
+    width: 39.87rem;
+    height: 3.36rem;
+    background-color: var(--gray-400);
+    border: 1px solid var(--gray-700);
+    border-radius: 8px;
+    color: var(--white);
+    padding: 16px;
+    margin-right: 8px;
+}
+
+.form button {
+    padding: 1rem;
+    gap: 0.5rem;
+    width: 5.625rem;
+    height: 3.25rem;
+    background: var(--blue-1);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+
+.form button:hover {
+    background-color: var(--white);
+    color: var(--blue-1);
+}
+
+.tasksHeader {
+
+    display: flex;
+    border-radius: 8px;
+    padding: 2.5rem;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 16px;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--gray-300);
+    border-radius: 2px;
+    width: 46rem;
+    height: 4.5rem;
+    
+}
+.tasksHeader div {
+    display: flex;
+   
+ 
+}
+
+.tasksHeader strong {
+    color: var(--blue-1);
+   
+}
+
+.tasksHeader p {
+    color: var(--white);
+    background-color: var(--gray-400);
+    padding: 0.125rem 0.5rem;
+    margin-left: 0.5rem;
+    border-radius: 999px;
+}
+
+
+
+.Task div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    
+}
+
+.Task{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 16px;
+    gap: 1px;
+    margin-top: 12px;
+   
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px){
+    
+    .tasksHeader{
+
+        gap: 5rem;
+        width: auto;
+    }
+    .form  {
+        padding: 1rem;
+    }
+}
+

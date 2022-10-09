@@ -1,0 +1,56 @@
+
+.Task div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.Task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    gap: 1px;
+    margin-top: 0.75rem;
+
+    /* transformar para rem */
+    
+
+    background: var(--gray-500);
+    border: 1px solid var(--gray-400);
+    box-shadow: 0px 2px 8px var(--gray-600);
+    border-radius: 8px;
+}
+
+.check {
+   
+    cursor: pointer;
+    background-color: transparent;
+    border-color: transparent;
+    color: var(--blue-1);
+    margin-right: 0.5rem;
+   
+}
+
+.check:hover {
+    color: var(--purple-1);
+}
+
+
+.trash {
+    background-color: transparent;
+    border: transparent;
+    color: var(--gray-300);
+    justify-content: flex-end;
+    line-height: 0;
+    cursor: pointer;
+
+}
+
+.trash:hover{
+    color: var(--danger);
+}
+.taskDone{
+    text-decoration: line-through var(--purple-1);
+}
