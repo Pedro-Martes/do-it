@@ -33,12 +33,14 @@ O objetivo deste projeto é criar um website de lista de tarefas onde o usuário
 
    ```bash
    git clone https://github.com/Pedro-Martes/do-it/
+   ```
 
 
 2. Navegue até o diretório do projeto:
 
    ```bash
    cd do-it
+   ```
 
 3. Instale as dependências:
   ```bash
@@ -48,7 +50,10 @@ O objetivo deste projeto é criar um website de lista de tarefas onde o usuário
   ```bash
    npm run dev
 ```
-5. O website estará disponível em http://localhost:3000.
+5. O website estará disponível em:
+  ```bash
+ http://localhost:3000
+ ```
 
 ## Agradecimentos
 Agradeço por visitar meu repositório. Se tiver alguma dúvida ou precisar de ajuda, não hesite em entrar em contato.
